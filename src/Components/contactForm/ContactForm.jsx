@@ -42,6 +42,7 @@ const Contact = () => {
       >
         <label>Nom</label>
         <input
+          required
           type="text"
           name="user_name"
           value={name}
@@ -51,6 +52,7 @@ const Contact = () => {
         />
         <label>Email</label>
         <input
+          required
           type="email"
           name="user_email"
           value={email}
@@ -60,6 +62,7 @@ const Contact = () => {
         />
         <label>Message</label>
         <textarea
+          required
           name="message"
           value={message}
           onChange={(e) => {
