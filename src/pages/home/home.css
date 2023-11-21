@@ -57,13 +57,19 @@
     text-align : center;
     
   }
+  .Typewriter{
+    width:270px;
+    
+    justify-content: center;
+  }
   .Typewriter__wrapper {
-    font-size: small;
+    font-size:medium;
     font-weight: bold;
     text-align : center;
+    width: 300px;
   }
   .Typewriter__cursor {
-    font-size: small;
+    font-size: medium;
     font-weight: bold;
 }
 }

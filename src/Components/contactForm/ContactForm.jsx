@@ -5,9 +5,9 @@ import emailjs from "@emailjs/browser";
 import "../../Components/contactForm/contactForm.css";
 
 const Contact = () => {
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [message, setMessage] = useState();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();

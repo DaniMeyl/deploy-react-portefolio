@@ -25,7 +25,7 @@ const Home = () => {
           className="player"
           loop
           autoplay
-          style={{ maxHeight: "400px", maxWidth: "400px" }}
+          style={{ maxHeight: "500px", maxWidth: "500px",minHeight:"300px", minWidth:"300px" }}
         />
         <Social className="social" />
      
