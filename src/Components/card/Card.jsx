@@ -1,9 +1,7 @@
 import "./card.css";
-import kasa from "../../assets/Kasa-desktop2.png";
-import argentBank from "../../assets/ArgentBank-desktop2.png";
 import { SocialIcon } from "react-social-icons";
 
-const Card = ({alt,urlSource,titleCard,descriptionCard}) => {
+const Card = ({alt,urlSource,titleCard,descriptionCard,urlGit}) => {
  
 
   return (
@@ -19,7 +17,7 @@ const Card = ({alt,urlSource,titleCard,descriptionCard}) => {
         <SocialIcon
           key="GitHub"
           className="iconStyleCard"
-          url="https://github.com/DaniMeyl/Kasa"
+          url={urlGit}
           network="github"
           bgColor="black"
           target="_blank"
