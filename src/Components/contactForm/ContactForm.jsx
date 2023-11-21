@@ -3,11 +3,14 @@ import { useRef } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import emailjs from "@emailjs/browser";
 import "../../Components/contactForm/contactForm.css";
+import {Modal} from "antd"
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [open, setOpen] = useState(false);
+  const [openError, setOpenError] = useState(false);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,15 +25,28 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("message envoyé");
+          setOpen(true)
           setName("");
           setEmail("");
           setMessage("");
         },
         (error) => {
           console.log(error.text);
+          setOpenError(true);
         }
       );
+  };
+
+  const handleOk = () => {
+    
+    setOpen(false);
+    setOpenError(false);
+  };
+
+  const handleCancel = () => {
+    
+    setOpen(false);
+    setOpenError(false);
   };
 
   return (
@@ -75,6 +91,26 @@ const Contact = () => {
           value="Envoyer"
         />
       </form>
+      <Modal
+        title="Votre message vient d'être envoyé"
+        open={open}
+        onOk={handleOk}
+        okButtonProps={{ disabled: false }}
+        cancelButtonProps={{ disabled: false , }}
+        onCancel={handleCancel}
+      >
+        
+      </Modal>
+      <Modal
+        title="Votre message n'a pas pu être envoyé"
+        open={openError}
+        onOk={handleOk}
+        okButtonProps={{ disabled: false }}
+        cancelButtonProps={{ disabled: false , }}
+        onCancel={handleCancel}
+      >
+        
+      </Modal>
 
       <div>
         <Player

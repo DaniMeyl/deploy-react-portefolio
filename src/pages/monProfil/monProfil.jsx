@@ -39,7 +39,7 @@ const profil = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Telecharger mon CV
+        Télécharger mon CV
       </a>
     </div>
   );
