@@ -76,7 +76,8 @@ body {
     .menu-icon {
       display: block;
       cursor: pointer;
-      background-color: #28262C
+      background-color: #28262C;
+      color: #F9EAFF;
     }
   
     .nav-elements {
@@ -105,5 +106,15 @@ body {
     .nav-elements ul li {
       margin-right: unset;
       margin-top: 22px;
+    }
+    .navbar {
+      height: 80px;
+
+    }
+    
+    .logo {
+
+      height: 80px;
+     
     }
   }

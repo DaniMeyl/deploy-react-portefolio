@@ -1,6 +1,7 @@
 import "./monProfil.css";
 import data from "../../assets/outils.json";
 
+
 const profil = () => {
   return (
     <div className="profil-container">
@@ -29,7 +30,7 @@ const profil = () => {
       </div>
       <a
         className="cv-lien"
-        href="https://infortts.com"
+        href="https://drive.google.com/file/d/1jKRxUjXmVoZ0h3p5ZtyZv8VwEl3MR9nF/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

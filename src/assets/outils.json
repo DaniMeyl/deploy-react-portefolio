@@ -14,7 +14,7 @@
         "title": "Langages & Bases de données",
         "items": [
           {
-            "icon": "./skills/html.png",
+            "icon": "/skills/html.png",
             "title": "HTML"
           },
           {
