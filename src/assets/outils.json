@@ -1,0 +1,51 @@
+
+{
+    "outils": [
+      {
+          "title": "Formation",
+          "items": [
+            {
+              "icon": "../../../../assets/skills/react.png",
+              "title": "Developpeur Front-end React"
+            }
+          ]
+        },
+      {
+        "title": "Langages & Bases de données",
+        "items": [
+          {
+            "icon": "./skills/html.png",
+            "title": "HTML"
+          },
+          {
+            "icon": "../../assets/skills/css.png",
+            "title": "CSS"
+          },
+          {
+            "icon": "./skills/js.png",
+            "title": "JavaScript"
+          },
+          {
+            "icon": "./skills/mongo-db.png",
+            "title": "MongoDb"
+          }
+        ]
+      },
+    
+      {
+          "title": "Frameworks & Outils",
+          "items": [
+            {
+              "icon": "./skills/react.png",
+              "title": "React"
+            },
+    
+            {
+              "icon": "./skills/git.png",
+              "title": "Git"
+            }
+          ]
+        }
+    ]
+  }
+  

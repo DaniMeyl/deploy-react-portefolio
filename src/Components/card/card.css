@@ -1,0 +1,42 @@
+.card-test{
+    background-color: #d5eafe;
+    border-radius: 15px;
+    width:250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    text-align : center
+   
+}
+.card-img{
+    width:210px;
+    border-bottom: 10px solid black;
+   
+    margin-bottom: 10px;
+}
+
+
+.title-card{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 5px;
+
+
+}
+.iconStyleCard{
+   display: flex;
+   position: relative;
+   bottom: 0px;
+}
+
+@media (max-width: 850px) {
+    .iconStyleCard{
+        margin-top:10px;
+     }
+
+
+}

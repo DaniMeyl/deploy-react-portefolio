@@ -1,0 +1,32 @@
+
+
+.container-projet{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap:100px;
+    padding: 50px 150px 50px 150px;
+    background-color: #1E1C21;
+   
+}
+@media (max-width: 1024px) {
+    .container-projet{
+       
+        gap:60px;
+        
+       
+    }
+
+
+}
+@media (max-width: 850px) {
+    .container-projet{
+       
+        flex-direction: column;
+        
+       
+    }
+
+
+}
