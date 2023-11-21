@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/navbar/Navbar.jsx';
 import Footer from './Components/footer/Footer.jsx';
 import Contact from './pages/contact/contact';
@@ -10,7 +10,7 @@ import Profil from './pages/monProfil/monProfil.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path='*' element={<Error/>} />
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
