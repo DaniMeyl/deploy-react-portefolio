@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/deploy-react-portefolio/static/css/main.25ecef3d.css",
+    "main.js": "/deploy-react-portefolio/static/js/main.0200abd5.js",
+    "static/js/787.34099e4b.chunk.js": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js",
+    "static/media/Kasa-desktop2.png": "/deploy-react-portefolio/static/media/Kasa-desktop2.0183474f420b7f849ea2.png",
+    "static/media/ArgentBank-desktop2.png": "/deploy-react-portefolio/static/media/ArgentBank-desktop2.11024bc30a2df7288eab.png",
+    "static/media/logo.png": "/deploy-react-portefolio/static/media/logo.6e2f73a4812ee3981ffe.png",
+    "index.html": "/deploy-react-portefolio/index.html",
+    "main.25ecef3d.css.map": "/deploy-react-portefolio/static/css/main.25ecef3d.css.map",
+    "main.0200abd5.js.map": "/deploy-react-portefolio/static/js/main.0200abd5.js.map",
+    "787.34099e4b.chunk.js.map": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ecef3d.css",
+    "static/js/main.0200abd5.js"
+  ]
+}
