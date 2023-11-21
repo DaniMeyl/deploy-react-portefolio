@@ -18,7 +18,7 @@ const Projets = () => {
         alt="site internet 724event"
         urlSource={eventImg}
         titleCard="724event"
-        descriptionCard="Implémentation du front-end d’une application bancair en utilisant React, Redux et configuration de route API"
+        descriptionCard="Debuggage du front-end du site d'une agence evenemmentiel en utilisant Jest, les tests unitaires et fonctionnels"
         urlGit="https://github.com/DaniMeyl/724events"
       />
       <Card
