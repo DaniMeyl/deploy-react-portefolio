@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/deploy-react-portefolio/static/css/main.dfe68063.css",
-    "main.js": "/deploy-react-portefolio/static/js/main.02247bbb.js",
+    "main.css": "/deploy-react-portefolio/static/css/main.edf3b263.css",
+    "main.js": "/deploy-react-portefolio/static/js/main.2b88a207.js",
     "static/js/787.34099e4b.chunk.js": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js",
     "static/media/Kasa-desktop2.png": "/deploy-react-portefolio/static/media/Kasa-desktop2.0183474f420b7f849ea2.png",
     "static/media/ArgentBank-desktop2.png": "/deploy-react-portefolio/static/media/ArgentBank-desktop2.11024bc30a2df7288eab.png",
     "static/media/event.png": "/deploy-react-portefolio/static/media/event.121a600db5de4884d76f.png",
+    "static/media/css.png": "/deploy-react-portefolio/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/openclassrooms.png": "/deploy-react-portefolio/static/media/openclassrooms.d6e291c14d9db89b45ee.png",
     "static/media/logo.png": "/deploy-react-portefolio/static/media/logo.6e2f73a4812ee3981ffe.png",
+    "static/media/react.png": "/deploy-react-portefolio/static/media/react.c5b0245f707d5ac80cac.png",
+    "static/media/js.png": "/deploy-react-portefolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/deploy-react-portefolio/index.html",
-    "main.dfe68063.css.map": "/deploy-react-portefolio/static/css/main.dfe68063.css.map",
-    "main.02247bbb.js.map": "/deploy-react-portefolio/static/js/main.02247bbb.js.map",
+    "main.edf3b263.css.map": "/deploy-react-portefolio/static/css/main.edf3b263.css.map",
+    "main.2b88a207.js.map": "/deploy-react-portefolio/static/js/main.2b88a207.js.map",
     "787.34099e4b.chunk.js.map": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe68063.css",
-    "static/js/main.02247bbb.js"
+    "static/css/main.edf3b263.css",
+    "static/js/main.2b88a207.js"
   ]
 }
