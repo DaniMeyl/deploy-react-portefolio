@@ -12,6 +12,10 @@ const Navbar = () => {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
   }
+
+  const closeNavBar = ()=>{
+    setShowNavbar(!showNavbar)
+  }
   return (
     <nav className="navbar">
       <div className="container">
@@ -24,17 +28,17 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/"><HomeOutlined className='icon-home' />Accueil</NavLink>
+              <NavLink to="/" onClick={closeNavBar}><HomeOutlined className='icon-home'  />Accueil</NavLink>
             </li>
             <li>
-              <NavLink to="/projets">Projets</NavLink>
+              <NavLink to="/projets" onClick={closeNavBar}>Projets</NavLink>
             </li>
             
             <li>
-              <NavLink to="/monProfil">Mon Profil</NavLink>
+              <NavLink to="/monProfil" onClick={closeNavBar}>Mon Profil</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact" onClick={closeNavBar}>Contact</NavLink>
             </li>
           </ul>
         </div>
