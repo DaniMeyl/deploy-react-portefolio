@@ -2,6 +2,7 @@ import "./projet.css";
 import kasa from "../../assets/Kasa-desktop2.png";
 import argentBank from "../../assets/ArgentBank-desktop2.png";
 import Card from "../../Components/card/Card";
+import eventImg from "../../assets/event.png";
 
 const Projets = () => {
   return (
@@ -21,11 +22,11 @@ const Projets = () => {
         urlGit="https://github.com/DaniMeyl/argentBank"
       />
       <Card
-        alt="site internet d'argentBank"
-        urlSource={argentBank}
-        titleCard="ArgentBank"
+        alt="site internet 724event"
+        urlSource={eventImg}
+        titleCard="724event"
         descriptionCard="Implémentation du front-end d’une application bancair en utilisant React, Redux et configuration de route API"
-        urlGit="https://github.com/DaniMeyl/argentBank"
+        urlGit="https://github.com/DaniMeyl/724events"
       />
     </div>
   );
