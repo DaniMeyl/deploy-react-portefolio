@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/deploy-react-portefolio/static/css/main.d2a2a2ec.css",
-    "main.js": "/deploy-react-portefolio/static/js/main.ca1b2f59.js",
-    "static/js/787.34099e4b.chunk.js": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js",
+    "main.css": "/deploy-react-portefolio/static/css/main.65ffc5e2.css",
+    "main.js": "/deploy-react-portefolio/static/js/main.8c487079.js",
     "static/media/Kasa-desktop2.png": "/deploy-react-portefolio/static/media/Kasa-desktop2.0183474f420b7f849ea2.png",
     "static/media/ArgentBank-desktop2.png": "/deploy-react-portefolio/static/media/ArgentBank-desktop2.11024bc30a2df7288eab.png",
     "static/media/event.png": "/deploy-react-portefolio/static/media/event.121a600db5de4884d76f.png",
@@ -12,12 +11,11 @@
     "static/media/react.png": "/deploy-react-portefolio/static/media/react.c5b0245f707d5ac80cac.png",
     "static/media/js.png": "/deploy-react-portefolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/deploy-react-portefolio/index.html",
-    "main.d2a2a2ec.css.map": "/deploy-react-portefolio/static/css/main.d2a2a2ec.css.map",
-    "main.ca1b2f59.js.map": "/deploy-react-portefolio/static/js/main.ca1b2f59.js.map",
-    "787.34099e4b.chunk.js.map": "/deploy-react-portefolio/static/js/787.34099e4b.chunk.js.map"
+    "main.65ffc5e2.css.map": "/deploy-react-portefolio/static/css/main.65ffc5e2.css.map",
+    "main.8c487079.js.map": "/deploy-react-portefolio/static/js/main.8c487079.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2a2a2ec.css",
-    "static/js/main.ca1b2f59.js"
+    "static/css/main.65ffc5e2.css",
+    "static/js/main.8c487079.js"
   ]
 }
