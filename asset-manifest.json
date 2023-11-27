@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/deploy-react-portefolio/static/css/main.65ffc5e2.css",
-    "main.js": "/deploy-react-portefolio/static/js/main.8c487079.js",
+    "main.css": "/deploy-react-portefolio/static/css/main.9a7dc470.css",
+    "main.js": "/deploy-react-portefolio/static/js/main.ba2f8b15.js",
     "static/media/Kasa-desktop2.png": "/deploy-react-portefolio/static/media/Kasa-desktop2.0183474f420b7f849ea2.png",
     "static/media/ArgentBank-desktop2.png": "/deploy-react-portefolio/static/media/ArgentBank-desktop2.11024bc30a2df7288eab.png",
     "static/media/event.png": "/deploy-react-portefolio/static/media/event.121a600db5de4884d76f.png",
@@ -11,11 +11,11 @@
     "static/media/react.png": "/deploy-react-portefolio/static/media/react.c5b0245f707d5ac80cac.png",
     "static/media/js.png": "/deploy-react-portefolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/deploy-react-portefolio/index.html",
-    "main.65ffc5e2.css.map": "/deploy-react-portefolio/static/css/main.65ffc5e2.css.map",
-    "main.8c487079.js.map": "/deploy-react-portefolio/static/js/main.8c487079.js.map"
+    "main.9a7dc470.css.map": "/deploy-react-portefolio/static/css/main.9a7dc470.css.map",
+    "main.ba2f8b15.js.map": "/deploy-react-portefolio/static/js/main.ba2f8b15.js.map"
   },
   "entrypoints": [
-    "static/css/main.65ffc5e2.css",
-    "static/js/main.8c487079.js"
+    "static/css/main.9a7dc470.css",
+    "static/js/main.ba2f8b15.js"
   ]
 }
