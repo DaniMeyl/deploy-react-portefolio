@@ -1,0 +1,18 @@
+.container-error{
+    background-color: #1E1C21;
+    color: #d5eafe;
+    padding: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+}
+
+@media (max-width: 760px) {
+    .container-error{
+    font-size: 25px;
+    }
+}
